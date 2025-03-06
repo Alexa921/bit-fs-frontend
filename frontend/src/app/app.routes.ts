@@ -8,12 +8,12 @@ import { NinoComponent } from './components/pages/nino/nino.component';
 import { DescuentosComponent } from './components/pages/descuentos/descuentos.component';
 
 export const routes: Routes = [
-    { path: "inicio", title:"SPA | Inicio", component: HomeComponent },
-    { path: "productos", title:"SPA | Productos", component: ProductsComponent },
-    { path: "hombre", title:"SPA | Hombre", component: HombreComponent },
-    { path: "mujer", title:"SPA | Mujer", component: MujerComponent },
-    { path: "nino", title:"SPA | Nino", component: NinoComponent },
-    { path: "descuentos", title:"SPA | Descuentos", component: DescuentosComponent },
+    { path: "inicio", title:"ZenRun", component: HomeComponent },
+    { path: "productos", title:"Productos", component: ProductsComponent },
+    { path: "hombre", title:"Hombre", component: HombreComponent },
+    { path: "mujer", title:"Mujer", component: MujerComponent },
+    { path: "nino", title:"Nino", component: NinoComponent },
+    { path: "descuentos", title:"Descuentos", component: DescuentosComponent },
     { path: "", pathMatch: "full", redirectTo: "inicio" },
     { path: "**", title: "PageNotFound", component: PageNotFoundComponent },
 ];

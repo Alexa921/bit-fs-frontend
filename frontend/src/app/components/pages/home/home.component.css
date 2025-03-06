@@ -1,0 +1,40 @@
+/*section1*/
+
+.img-portada {
+    width: 35%;
+    height: 900px;
+    margin-left: 1211px;
+}
+
+h1 {
+    font-size: 140px;
+    font-family: serif;
+    margin-top: -650px;
+    margin-left: 120px;
+}
+
+p {
+    font-size: 19px;
+    color: rgb(54, 54, 54);
+    margin-left: 120px;
+}
+
+button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #780001;
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 50px;
+}
+
+/*section2*/
+
+.titulo-section2 {
+    font-size: 30px;
+    margin-top: 700px;
+    margin-left: 120px;
+}
