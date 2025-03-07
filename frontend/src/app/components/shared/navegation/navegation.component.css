@@ -1,4 +1,5 @@
 nav {
+    position: fixed;
     width: 100%;
     height: 80px;
     background-color: #EFEFEF;
@@ -14,6 +15,7 @@ nav .logo {
 }
 
 a {
+    font-size: 18px;
     text-decoration: none;
     color: black;
     margin-left: 100px;

@@ -9,17 +9,17 @@
 h1 {
     font-size: 140px;
     font-family: serif;
-    margin-top: -650px;
+    margin-top: -600px;
     margin-left: 120px;
 }
 
-p {
+.texto-portada {
     font-size: 19px;
     color: rgb(54, 54, 54);
     margin-left: 120px;
 }
 
-button {
+.boton-portada {
     color: #ffffff;
     font-size: 18px;
     background-color: #780001;
@@ -31,10 +31,115 @@ button {
     border-radius: 50px;
 }
 
-/*section2*/
+/*section2-explorar la coleccion*/
 
 .titulo-section2 {
     font-size: 30px;
     margin-top: 700px;
     margin-left: 120px;
+}
+
+/*section3-mujer y hombre*/
+
+.section-mujer-hombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+    margin-top: 200px;
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mujer, .hombre {
+    width: 600px;
+    height: 800px;
+    margin: 0; 
+    border-radius: 20px;
+}
+
+.texto-mujer, .texto-hombre {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: -300px;
+
+}
+
+.boton-mujer, .boton-hombre {
+    color: #252525;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    margin-top: -43px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 50px; 
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+    background-color: transparent;
+}
+
+/*section4-regala zenrun*/
+
+.titulo-section4 {
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+/*section5-publicidad*/
+
+.seccion5 {
+    width: 1100px;
+    height: 650px;
+    background-color: #EFEFEF;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.publicidad {
+    width: 560px;
+    height: 650px;
+    margin-left: 1060px;
+}
+
+.titulo-section5 {
+    font-size: 70px;
+    font-family: serif;
+    margin-top: -450px;
+    margin-left: 120px;
+    background-color: transparent;
+}
+
+.texto-section5 {
+    font-size: 28px;
+    color: rgb(61, 61, 61);
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.boton-pubicidad {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #780001;
+    width: 220px;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 50px;
 }
