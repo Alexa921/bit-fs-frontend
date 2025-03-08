@@ -5,6 +5,7 @@ nav {
     background-color: #EFEFEF;
     padding-top: 10px;
     padding-left: 700px;
+    z-index: 1;
 }
 
 nav .logo {

@@ -1,0 +1,64 @@
+/*SECTION1-portada*/
+
+.img-portada {
+    width: 100%;
+    height: 930px;
+}
+
+.texto1 {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+    margin-top: -450px;
+    margin-left: 20px;
+}
+
+.texto2 {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+    margin-top: -450px;
+    margin-left: 1620px;
+}
+
+.texto3 {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+    margin-top: -800px;
+    margin-left: 550px;
+    transform: rotate(360deg);
+    writing-mode: vertical-rl;
+}
+
+.texto4 {
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
+    margin-top: -250px;
+    margin-left: 550px;
+    transform: rotate(360deg);
+    writing-mode: vertical-rl;
+}
+
+.logo-nike {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    background-color: transparent;
+    margin-top: 480px;
+    margin-left: -1350px;
+    transform: rotate(110deg);
+}
