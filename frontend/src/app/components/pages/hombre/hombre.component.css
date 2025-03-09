@@ -13,7 +13,7 @@
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
     margin-top: -450px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .texto2 {
@@ -24,7 +24,7 @@
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
     margin-top: -450px;
-    margin-left: 1620px;
+    margin-left: 1600px;
 }
 
 .texto3 {
@@ -34,7 +34,7 @@
     color: white;
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
-    margin-top: -800px;
+    margin-top: -817px;
     margin-left: 550px;
     transform: rotate(360deg);
     writing-mode: vertical-rl;
@@ -47,7 +47,7 @@
     color: white;
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
-    margin-top: -250px;
+    margin-top: -260px;
     margin-left: 550px;
     transform: rotate(360deg);
     writing-mode: vertical-rl;
