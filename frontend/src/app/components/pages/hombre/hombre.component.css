@@ -34,7 +34,7 @@
     color: white;
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
-    margin-top: -817px;
+    margin-top: -800px;
     margin-left: 550px;
     transform: rotate(360deg);
     writing-mode: vertical-rl;
@@ -47,7 +47,7 @@
     color: white;
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
-    margin-top: -260px;
+    margin-top: -240px;
     margin-left: 550px;
     transform: rotate(360deg);
     writing-mode: vertical-rl;
@@ -58,7 +58,7 @@
     height: 50px;
     position: absolute;
     background-color: transparent;
-    margin-top: 480px;
+    margin-top: 500px;
     margin-left: -1350px;
     transform: rotate(110deg);
 }
