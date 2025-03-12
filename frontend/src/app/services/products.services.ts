@@ -10,6 +10,6 @@ export class ProductsService {
   httpClient = inject(HttpClient);
 
   getAllProducts() {
-    return this.httpClient.get("http://localhost:4100/productos");
+    return this.httpClient.get("http://localhost:3000/productos");
   }
 }
