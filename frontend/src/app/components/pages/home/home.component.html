@@ -4,7 +4,7 @@
     <img class="img-portada" src="portada2.jpg" alt="Imagen portaada">
     <h1>ZENRUN</h1>
     <p class="texto-portada">Esencialmente, infinitas posibilidades de comodidad diaria.</p>
-    <button class="boton-portada">COMPRAR</button>
+    <a href="../productos"><button class="boton-portada">COMPRAR</button></a>
 </section>
 
 <!--SECTION2-explorar la coleccion-->
@@ -12,6 +12,27 @@
 <section class="seccion2">
 <h2 class="titulo-section2"> EXPLORAR LA COLECCIÓN</h2>
 </section>
+
+<!--SECTION2-cards-->
+
+<section>
+    <section class="productos">
+      @for (producto of productos; track $index) {
+      <div class="card">
+        <img
+          src="{{ producto.imagen }}"
+          class="img-card card-img-top"
+          alt="{{ producto.titulo }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ producto.titulo }}</h5>
+          <p class="card-text">{{ producto.precio }}</p>
+          <button (click)="onClick(producto)" type="button" class="boton-agregar btn btn-secondary">Agregar</button>
+        </div>
+      </div>
+      }
+    </section>
+  </section>
 
 <!--SECTION3-mujer y hombre-->
 
@@ -22,19 +43,19 @@
     <div class="categoria">
         <img class="mujer" src="seccion-mujer.jpg" alt="Seccion mujer">
         <p class="texto-mujer">MUJER</p>
-        <button class="boton-mujer"><a href="../mujer/mujer.component.html">VER</a></button>
+        <button class="boton-mujer"><a href="../mujer">VER</a></button>
     </div>
 
     <div class="categoria">
         <img class="hombre" src="seccion-hombre.jpg" alt="Seccion hombre">
         <p class="texto-hombre">HOMBRE</p>
-        <button class="boton-hombre"><a href="../hombre/hombre.component.html">VER</a></button>
+        <button class="boton-hombre"><a href="../hombre">VER</a></button>
     </div>
 
     <div class="categoria">
         <img class="niño" src="niño.jpg" alt="Seccion niño">
         <p class="texto-niño">NIÑO</p>
-        <button class="boton-niño"><a href="../hombre/hombre.component.html">VER</a></button>
+        <button class="boton-niño"><a href="../nino">VER</a></button>
     </div>
 </div>
 </section>
@@ -44,6 +65,27 @@
 <section class="seccion4">
 <h2 class="titulo-section4">REGALA ZENRUN</h2>
 </section>
+
+<!--SECTION4-cards-->
+
+<section>
+    <section class="productos">
+      @for (producto of productos; track $index) {
+      <div class="card">
+        <img
+          src="{{ producto.imagen }}"
+          class="img-card card-img-top"
+          alt="{{ producto.titulo }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ producto.titulo }}</h5>
+          <p class="card-text">{{ producto.precio }}</p>
+          <button (click)="onClick(producto)" type="button" class="boton-agregar btn btn-secondary">Agregar</button>
+        </div>
+      </div>
+      }
+    </section>
+  </section>
 
 <!--SECTION5-seccion zapatillas-->
 
@@ -69,5 +111,5 @@
     <img class="publicidad" src="publicidad.jpg" alt="Publicidad">
     <h2 class="titulo-section6">JORDAN 1 RETRO LOW</h2>
     <p class="texto-section6">Celebra con estilo</p>
-    <button class="boton-pubicidad">EXPLORA</button>
+    <a href="../productos"><button class="boton-pubicidad">EXPLORA</button></a>
 </section>

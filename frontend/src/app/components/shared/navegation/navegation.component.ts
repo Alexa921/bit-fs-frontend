@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, Input, Signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { ProductsService } from '../../../services/products.services';
 
 @Component({
   selector: 'app-navegation',
@@ -7,4 +8,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './navegation.component.html',
   styleUrl: './navegation.component.css',
 })
-export class NavegationComponent {}
+export class NavegationComponent {
+ productService = inject(ProductsService);
+  cantidad: Signal<number> = this.productService.cantidadCarrito;
+}

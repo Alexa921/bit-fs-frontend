@@ -13,6 +13,8 @@ export class ProductsComponent implements OnInit {
   productsService = inject(ProductsService);
 
   productos: any[] = [];
+  carrito: any[] = [];
+
 
   ngOnInit() {
     this.obtenerTodosLosProductos();
@@ -26,4 +28,9 @@ export class ProductsComponent implements OnInit {
       );
     });
   }
+
+  onClick(producto: any) {
+    this.carrito.push(producto);
+    this.productsService.cambiarCantidad(this.carrito.length);
+  } 
 }

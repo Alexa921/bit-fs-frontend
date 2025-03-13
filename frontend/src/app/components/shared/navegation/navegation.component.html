@@ -1,15 +1,18 @@
 <nav>
-    <img class="logo" src="logo-nike.png" alt="Logo de la pagina">
+    <a href="../inicio"><img class="logo" src="logo-nike.png" alt="Logo de la pagina"></a>
     <div class="links">
         <a class="inicio" routerLink="inicio">Inicio</a>
-        <a routerLink="productos">Novedades</a>
-        <a routerLink="hombre">Hombre</a>
-        <a routerLink="mujer">Mujer</a>
-        <a routerLink="nino">Niño</a>
-        <a routerLink="descuentos">Descuentos</a>
+        <a class="item-1" routerLink="productos">Novedades</a>
+        <a class="item-1" routerLink="hombre">Hombre</a>
+        <a class="item-1" routerLink="mujer">Mujer</a>
+        <a class="item-1" routerLink="nino">Niño</a>
+        <a class="item-1" routerLink="descuentos">Descuentos</a>
     </div>
     <div class="buscador">
         <img class="lupa" src="search.png" alt="carrito de compra">
-        <img class="bolsa" src="bag.png" alt="carrito de compra">
+        <div class="carrito">
+            <img class="bolsa" src="bag.png" alt="carrito de compra">
+            <span class="numero-bolsa">{{cantidad()}}</span>
+        </div>
     </div>
 </nav>

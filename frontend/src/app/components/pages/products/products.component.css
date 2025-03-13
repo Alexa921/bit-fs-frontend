@@ -42,3 +42,17 @@
   background-color: transparent;
   margin-top: 10px;
 }
+
+/*Boton-agregar*/
+
+.boton-agregar {
+  width: 80px;
+  height: 30px;
+  background-color: #780000ef;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+
+

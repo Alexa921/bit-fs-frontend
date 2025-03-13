@@ -9,7 +9,7 @@ import { DescuentosComponent } from './components/pages/descuentos/descuentos.co
 
 export const routes: Routes = [
     { path: "inicio", title:"ZenRun", component: HomeComponent },
-    { path: "productos", title:"Productos", component: ProductsComponent },
+    { path: "productos", title:"Novedades", component: ProductsComponent },
     { path: "hombre", title:"Hombre", component: HombreComponent },
     { path: "mujer", title:"Mujer", component: MujerComponent },
     { path: "nino", title:"Nino", component: NinoComponent },

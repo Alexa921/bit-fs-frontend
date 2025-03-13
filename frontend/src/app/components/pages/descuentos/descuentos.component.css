@@ -1,0 +1,65 @@
+/*CARDS*/
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 250px;
+    padding-left: 420px;
+  }
+  
+  .card {
+    width: 460px;
+    height: 530px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  
+  .img-card {
+    width: 460px;
+    height: 470px;
+    background-color: #c1c2c4;
+    margin-top: -100px;
+  }
+  
+  .card-body {
+    background-color: transparent;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    background-color: transparent;
+    margin-top: 20px;
+  }
+  
+  .card-text {
+    font-size: 17px;
+    color: rgb(100, 100, 100);
+    background-color: transparent;
+    margin-top: 10px;
+  }
+
+  .precio-original {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.precio-descuento {
+    color: #780000ef;
+    font-weight: bold;
+}
+
+/*Boton-agregar*/
+
+.boton-agregar {
+  width: 80px;
+  height: 30px;
+  background-color: #780000ef;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}

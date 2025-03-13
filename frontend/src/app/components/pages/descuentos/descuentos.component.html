@@ -1,1 +1,23 @@
-<p>descuentos works!</p>
+<!--SECTION1-cards-->
+
+<section>
+    <section class="productos">
+      @for (producto of productos; track $index) {
+      <div class="card">
+        <img
+          src="{{ producto.imagen }}"
+          class="img-card card-img-top"
+          alt="{{ producto.titulo }}"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ producto.titulo }}</h5>
+          <p class="card-text">
+            <span class="precio-descuento"> ${{ (producto.precio * 0.5).toFixed(2) }}</span>&nbsp;&nbsp;
+            <span class="precio-original">${{ producto.precio.toFixed(2) }}</span>
+          </p>
+          <button (click)="onClick(producto)" type="button" class="boton-agregar btn btn-secondary">Agregar</button>
+        </div>
+      </div>
+      }
+    </section>
+  </section>

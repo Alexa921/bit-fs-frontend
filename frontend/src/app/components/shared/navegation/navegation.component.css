@@ -15,6 +15,14 @@ nav .logo {
     background-color: #efefef;
 }
 
+.inicio:hover {
+    color: #780000ef; 
+}
+
+.item-1:hover {
+    color: #780000ef;
+}
+
 .links {
     position: absolute;
     margin-top: -30px;
@@ -60,4 +68,13 @@ a {
 
 .buscador {
     background-color: transparent;
+}
+
+.carrito {
+    background-color: transparent;
+}
+
+.numero-bolsa {
+    margin-left: 980px;
+    margin-top: 40px;
 }
