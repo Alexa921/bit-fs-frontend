@@ -65,9 +65,6 @@
 
 
 
-
-
-
 /*CARDS*/
 
 .productos {
@@ -78,7 +75,7 @@
     align-items: center;
     width: 80%;
     padding-top: 250px;
-    padding-left: 420px;
+    padding-left: 390px;
   }
   
   .card {
@@ -122,4 +119,175 @@
   color: white;
   border: none;
   margin-top: 10px;
+}
+
+/* RESPONSIVE*/
+/* Computador-1024px */
+@media (max-width: 1024px) {
+  /*PORTADA*/
+  .img-portada {
+    width: 100%;
+    height: 930px;
+}
+
+.texto1 {
+    font-size: 35px;
+    margin-top: -450px;
+    margin-left: 10px;
+}
+
+.texto2 {
+    font-size: 35px;
+    margin-top: -450px;
+    margin-left: 830px;
+}
+
+.texto3 {
+    font-size: 35px;
+    margin-top: -800px;
+    margin-left: 330px;
+}
+
+.texto4 {
+    font-size: 35px;
+    margin-top: -200px;
+    margin-left: 330px;
+}
+
+.logo-nike {
+    width: 120px;
+    height: 50px;
+    margin-top: 500px;
+    margin-left: -730px;
+}
+/*CARDS*/
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 105px;
+    width: 90%;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .img-card {
+    max-width: 100%;
+  }
+}
+
+/* Computador-768px */
+@media (max-width: 768px) {
+  /*PORTADA*/
+  .img-portada {
+    width: 100%;
+    height: 900px;
+}
+
+.texto1 {
+    font-size: 30px;
+    margin-top: -450px;
+    margin-left: 10px;
+}
+
+.texto2 {
+    font-size: 30px;
+    margin-top: -450px;
+    margin-left: 600px;
+}
+
+.texto3 {
+    font-size: 30px;
+    margin-top: -760px;
+    margin-left: 260px;
+}
+
+.texto4 {
+    font-size: 30px;
+    margin-top: -170px;
+    margin-left: 260px;
+}
+
+.logo-nike {
+    width: 110px;
+    height: 40px;
+    margin-top: 500px;
+    margin-left: -540px;
+}
+/*CARDS*/
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 160px;
+    padding-left: 80px;
+    gap: 10px;
+  }
+
+  .card {
+    width: 340px;
+    height: 400px;
+    margin-top: 120px;
+  }
+
+  .img-card {
+    width: 340px;
+    height: 410px;
+  }
+}
+
+/* Computador-375px */
+@media (max-width: 375px) {
+   /*PORTADA*/
+   .img-portada {
+    width: 100%;
+    height: 500px;
+}
+
+.texto1 {
+    font-size: 17px;
+    margin-top: -200px;
+    margin-left: 10px;
+}
+
+.texto2 {
+    font-size: 17px;
+    margin-top: -200px;
+    margin-left: 270px;
+}
+
+.texto3 {
+    font-size: 17px;
+    margin-top: -370px;
+    margin-left: 120px;
+}
+
+.texto4 {
+    font-size: 17px;
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+.logo-nike {
+    width: 70px;
+    height: 30px;
+    margin-top: 300px;
+    margin-left: -270px;
+}
+/*CARDS*/
+  .productos {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10px;
+    padding-left: 30px;
+    gap: 10px;
+  }
+
+  .card {
+    width: 320px;
+    height: 320px;
+    margin-top: 200px;
+  }
+
+  .img-card {
+    width: 340px;
+    height: 410px;
+  }
 }

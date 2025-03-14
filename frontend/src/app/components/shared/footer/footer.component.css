@@ -42,3 +42,74 @@ footer {
     margin-left: 60px;
     background-color: #efefef;
 }
+
+a {
+    background-color: transparent;
+}
+
+/* RESPONSIVE */
+/* Computador-1024px */
+@media (max-width: 1024px) {
+    .logo-nike {
+        width: 150px;
+        height: 50px;
+        margin-left: 450px;
+    }
+    
+    .texto1, .texto2 {
+        margin-left: -420px;
+    }
+    
+    .logo-insta {
+        flex-direction: row;
+        margin-left: 430px;
+    }
+}
+
+/* Computador-768px */
+@media (max-width: 768px) {
+    .logo-nike {
+        width: 150px;
+        height: 50px;
+        margin-left: 340px;
+    }
+    
+    .texto1, .texto2 {
+        margin-left: -520px;
+    }
+    
+    .logo-insta {
+        flex-direction: row;
+        margin-left: 320px;
+    }
+}
+
+/* Computador-375px */
+@media (max-width: 375px) {
+    .logo-nike {
+        margin-top: 30px;
+        width: 130px;
+        height: 40px;
+        margin-left: 120px;
+    }
+    
+    .texto1 {
+        font-size: 11px;
+        margin-left: -655px;
+    }
+
+    .texto2 {
+        font-size: 11px;
+        margin-left: -680px;
+    }
+    
+    .logo-insta {
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    footer {
+        height: 250px;
+        margin-top: 150px;
+    }
+}
